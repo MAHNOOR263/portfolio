@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+
+}
+
+:root {
+    --primary_color: #ff5588;
+}
+
+.container {
+    display: flex;
+    padding: 40px 80px;
+
+
+}
+
+.profile-data-section {
+    width: 18%;
+    margin-top: 100px;
+}
+
+.profile-data-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+
+}
+
+.main-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.profile-data-section button {
+    width: 71%;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-family: "Inter", sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 13px 40px;
+    cursor: pointer;
+
+}
+
+/* profile-details */
+.profile-detail {
+    margin-left: 30px;
+
+
+}
+
+.profile-details .intro h2 {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.6px;
+
+
+
+}
+
+.profile-details .intro h1 {
+    margin: 30px 0px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.profile-details .intro p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.work-done {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 300px;
+
+
+
+
+}
+
+.work-done .projects {
+    text-align: center;
+
+
+}
+
+.work-done .projects h1 {
+    color: var(--primary_color);
+    font-size: 40px;
+    font-weight: 400;
+
+
+
+}
+
+.work-done .projects span {
+
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+
+
+}
+
+/*  about-me */
+.intro .about-me h2 {
+    color: var(--primary_color);
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+
+
+}
+
+.intro .about-me h1 {
+
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro .about-me p {
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+
+/* career-section */
+
+.intro .career-section h2 {
+    color: var(--primary_color);
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+
+
+}
+
+.intro .career-section h1 {
+
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro .career-section span {
+
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+
+.intro .career-section h3 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* services-section */
+.intro .service-section h2 {
+    color: var(--primary_color);
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+
+
+}
+
+.intro .service-section h1 {
+
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro .service-section button {
+    margin-right: 20px;
+    padding: 30px 60px;
+    font-size: 19px;
+    font-weight: 400;
+    border: 1px solid var(--primary_color);
+    border-radius: 20px;
+}
+
+.intro .btn-section .btn-2 {
+    border-color: black;
+}
+
+.intro .btn-section h3 {
+    font-weight: 400;
+}
+
+.intro .btn-section span {
+
+    margin: 20px 0px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+
+/* skills-section */
+
+.intro .skills-section h2 {
+    color: var(--primary_color);
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+
+
+}
+
+.intro .skills-section h1 {
+
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro .skills-section img {
+    margin-right: 50px;
+}
+
+/* portfolio-section */
+.intro .portfolio-section h2 {
+    color: var(--primary_color);
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+
+
+}
+
+.intro .portfolio-section h1 {
+
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* client-card-section */
+.intro .client-section h2 {
+    color: var(--primary_color);
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+
+
+}
+
+.intro .client-section h1 {
+
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.card-section {
+    position: relative;
+    display: flex;
+    margin-right: 130px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 60px 60px 200px 80px;
+}
+
+.card-section h4 {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.card-section span {
+    position: absolute;
+    right: 430px;
+    margin-top: 60px;
+
+}
+
+.card-section p {
+    position: absolute;
+    top: 200px;
+    right: 230px;
+}
+
+/* brand-section */
+.intro .brand-section h2 {
+    color: var(--primary_color);
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+.intro .brand-section h1 {
+
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro .brand-section img {
+    margin-top: 50px;
+    margin-right: 90px;
+}
+
+
+/* form-section */
+
+.form-section {
+    margin-top: 50px;
+}
+
+.intro .form-section h1{
+    color: var(--primary_color);
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+
+
+
+.form-input {
+    margin: 20px 0px;
+}
+
+.form-input input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cab9bf;
+    width: 500px;
+    padding: 10px;
+}
+
+.form-input input :focus {
+    outline: none;
+}
+
+.form-textarea textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cab9bf;
+    width: 500px;
+}
+
+.form-section button {
+    margin-top: 20px;
+    padding: 15px 55px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
